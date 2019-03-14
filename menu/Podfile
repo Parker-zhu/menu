@@ -1,0 +1,36 @@
+project 'menu.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'menu' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for menu
+
+  target 'menuTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'menuUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  pod 'MJRefresh'
+  pod 'AFNetworking', '~> 3.0'
+  pod 'SDWebImage', '~> 4.0'
+  pod 'Masonry'
+  pod 'MBProgressHUD', '~> 1.1.0'
+  pod 'YYKit'
+  pod 'libextobjc'
+  pod 'IQKeyboardManager'
+  pod 'JLRoutes'
+  pod 'FDFullscreenPopGesture', '1.1'
+  pod 'SDCycleScrollView','~> 1.75'
+  pod 'JPush'
+  pod 'KMNavigationBarTransition'
+  pod 'TZImagePickerController'
+  pod 'FMDB'
+ end
