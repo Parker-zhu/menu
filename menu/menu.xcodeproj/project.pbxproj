@@ -9,14 +9,24 @@
 /* Begin PBXBuildFile section */
 		7615B09C81503C36353F0B7F /* libPods-menuUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F1AD7D4E4D30B94A70C593 /* libPods-menuUITests.a */; };
 		8FA09C64F95140A659BF8D61 /* libPods-menuTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E9CA9DF21F17AD94C92F3D /* libPods-menuTests.a */; };
-		B4CA29C9223AA6BC00217722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA29C8223AA6BC00217722 /* AppDelegate.m */; };
-		B4CA29CC223AA6BC00217722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA29CB223AA6BC00217722 /* ViewController.m */; };
-		B4CA29CF223AA6BC00217722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CA29CD223AA6BC00217722 /* Main.storyboard */; };
-		B4CA29D1223AA6BF00217722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CA29D0223AA6BF00217722 /* Assets.xcassets */; };
-		B4CA29D4223AA6BF00217722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CA29D2223AA6BF00217722 /* LaunchScreen.storyboard */; };
 		B4CA29D7223AA6BF00217722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA29D6223AA6BF00217722 /* main.m */; };
 		B4CA29E1223AA6BF00217722 /* menuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA29E0223AA6BF00217722 /* menuTests.m */; };
 		B4CA29EC223AA6BF00217722 /* menuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA29EB223AA6BF00217722 /* menuUITests.m */; };
+		B4CA2A0D223B3A0E00217722 /* MenuTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A0C223B3A0E00217722 /* MenuTool.m */; };
+		B4CA2A11223B3A6C00217722 /* MNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A10223B3A6C00217722 /* MNViewController.m */; };
+		B4CA2A1D223B3DC200217722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CA2A15223B3DC200217722 /* Assets.xcassets */; };
+		B4CA2A1E223B3DC200217722 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A16223B3DC200217722 /* ViewController.m */; };
+		B4CA2A1F223B3DC200217722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CA2A17223B3DC200217722 /* LaunchScreen.storyboard */; };
+		B4CA2A20223B3DC200217722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CA2A19223B3DC200217722 /* Main.storyboard */; };
+		B4CA2A21223B3DC200217722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A1B223B3DC200217722 /* AppDelegate.m */; };
+		B4CA2A24223B3E5100217722 /* MNTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A23223B3E5100217722 /* MNTabBarController.m */; };
+		B4CA2A27223B3E6900217722 /* UIView+MN.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A26223B3E6900217722 /* UIView+MN.m */; };
+		B4CA2A2A223B3EA000217722 /* HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A29223B3EA000217722 /* HUD.m */; };
+		B4CA2A2D223B3FFE00217722 /* MNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A2C223B3FFE00217722 /* MNNavigationController.m */; };
+		B4CA2A3C223B41CD00217722 /* MNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A3B223B41CD00217722 /* MNHomeViewController.m */; };
+		B4CA2A3F223B420000217722 /* MNClassifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A3E223B420000217722 /* MNClassifyViewController.m */; };
+		B4CA2A42223B422300217722 /* MNMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A41223B422300217722 /* MNMoreViewController.m */; };
+		B4CA2A45223B45E900217722 /* UITableView+MN.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CA2A44223B45E900217722 /* UITableView+MN.m */; };
 		FB024697115EDB64601F390A /* libPods-menu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 868D1E0C72451A4BF064FC4C /* libPods-menu.a */; };
 /* End PBXBuildFile section */
 
@@ -47,13 +57,6 @@
 		868D1E0C72451A4BF064FC4C /* libPods-menu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-menu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92E9CA9DF21F17AD94C92F3D /* libPods-menuTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-menuTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CA29C4223AA6BC00217722 /* menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4CA29C7223AA6BC00217722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B4CA29C8223AA6BC00217722 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B4CA29CA223AA6BC00217722 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B4CA29CB223AA6BC00217722 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B4CA29CE223AA6BC00217722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B4CA29D0223AA6BF00217722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B4CA29D3223AA6BF00217722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4CA29D5223AA6BF00217722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4CA29D6223AA6BF00217722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4CA29DC223AA6BF00217722 /* menuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = menuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +65,34 @@
 		B4CA29E7223AA6BF00217722 /* menuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = menuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CA29EB223AA6BF00217722 /* menuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = menuUITests.m; sourceTree = "<group>"; };
 		B4CA29ED223AA6BF00217722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CA2A0B223B3A0E00217722 /* MenuTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuTool.h; sourceTree = "<group>"; };
+		B4CA2A0C223B3A0E00217722 /* MenuTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuTool.m; sourceTree = "<group>"; };
+		B4CA2A0F223B3A6C00217722 /* MNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNViewController.h; sourceTree = "<group>"; };
+		B4CA2A10223B3A6C00217722 /* MNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNViewController.m; sourceTree = "<group>"; };
+		B4CA2A12223B3A8800217722 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B4CA2A14223B3DC200217722 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B4CA2A15223B3DC200217722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B4CA2A16223B3DC200217722 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B4CA2A18223B3DC200217722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B4CA2A1A223B3DC200217722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B4CA2A1B223B3DC200217722 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B4CA2A1C223B3DC200217722 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B4CA2A22223B3E5100217722 /* MNTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNTabBarController.h; sourceTree = "<group>"; };
+		B4CA2A23223B3E5100217722 /* MNTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNTabBarController.m; sourceTree = "<group>"; };
+		B4CA2A25223B3E6900217722 /* UIView+MN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MN.h"; sourceTree = "<group>"; };
+		B4CA2A26223B3E6900217722 /* UIView+MN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MN.m"; sourceTree = "<group>"; };
+		B4CA2A28223B3EA000217722 /* HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HUD.h; sourceTree = "<group>"; };
+		B4CA2A29223B3EA000217722 /* HUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HUD.m; sourceTree = "<group>"; };
+		B4CA2A2B223B3FFE00217722 /* MNNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNNavigationController.h; sourceTree = "<group>"; };
+		B4CA2A2C223B3FFE00217722 /* MNNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNNavigationController.m; sourceTree = "<group>"; };
+		B4CA2A3A223B41CD00217722 /* MNHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNHomeViewController.h; sourceTree = "<group>"; };
+		B4CA2A3B223B41CD00217722 /* MNHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNHomeViewController.m; sourceTree = "<group>"; };
+		B4CA2A3D223B420000217722 /* MNClassifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNClassifyViewController.h; sourceTree = "<group>"; };
+		B4CA2A3E223B420000217722 /* MNClassifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNClassifyViewController.m; sourceTree = "<group>"; };
+		B4CA2A40223B422300217722 /* MNMoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNMoreViewController.h; sourceTree = "<group>"; };
+		B4CA2A41223B422300217722 /* MNMoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNMoreViewController.m; sourceTree = "<group>"; };
+		B4CA2A43223B45E900217722 /* UITableView+MN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+MN.h"; sourceTree = "<group>"; };
+		B4CA2A44223B45E900217722 /* UITableView+MN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+MN.m"; sourceTree = "<group>"; };
 		E93FB817F2D29705F551D031 /* Pods-menu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menu.release.xcconfig"; path = "Pods/Target Support Files/Pods-menu/Pods-menu.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,13 +172,11 @@
 		B4CA29C6223AA6BC00217722 /* menu */ = {
 			isa = PBXGroup;
 			children = (
-				B4CA29C7223AA6BC00217722 /* AppDelegate.h */,
-				B4CA29C8223AA6BC00217722 /* AppDelegate.m */,
-				B4CA29CA223AA6BC00217722 /* ViewController.h */,
-				B4CA29CB223AA6BC00217722 /* ViewController.m */,
-				B4CA29CD223AA6BC00217722 /* Main.storyboard */,
-				B4CA29D0223AA6BF00217722 /* Assets.xcassets */,
-				B4CA29D2223AA6BF00217722 /* LaunchScreen.storyboard */,
+				B4CA29FC223B398500217722 /* Base */,
+				B4CA29FA223B398500217722 /* Classes */,
+				B4CA29FB223B398500217722 /* Third */,
+				B4CA29F9223B398500217722 /* Tools */,
+				B4CA2A0E223B3A1900217722 /* Category */,
 				B4CA29D5223AA6BF00217722 /* Info.plist */,
 				B4CA29D6223AA6BF00217722 /* main.m */,
 			);
@@ -170,6 +199,173 @@
 				B4CA29ED223AA6BF00217722 /* Info.plist */,
 			);
 			path = menuUITests;
+			sourceTree = "<group>";
+		};
+		B4CA29F9223B398500217722 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A0B223B3A0E00217722 /* MenuTool.h */,
+				B4CA2A0C223B3A0E00217722 /* MenuTool.m */,
+				B4CA2A28223B3EA000217722 /* HUD.h */,
+				B4CA2A29223B3EA000217722 /* HUD.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B4CA29FA223B398500217722 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A32223B41B800217722 /* MNClassify */,
+				B4CA2A2E223B41B800217722 /* MNHome */,
+				B4CA2A36223B41B800217722 /* MNMore */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B4CA29FB223B398500217722 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		B4CA29FC223B398500217722 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A13223B3DC200217722 /* System */,
+				B4CA2A0F223B3A6C00217722 /* MNViewController.h */,
+				B4CA2A10223B3A6C00217722 /* MNViewController.m */,
+				B4CA2A12223B3A8800217722 /* PrefixHeader.pch */,
+				B4CA2A22223B3E5100217722 /* MNTabBarController.h */,
+				B4CA2A23223B3E5100217722 /* MNTabBarController.m */,
+				B4CA2A2B223B3FFE00217722 /* MNNavigationController.h */,
+				B4CA2A2C223B3FFE00217722 /* MNNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B4CA2A0E223B3A1900217722 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A25223B3E6900217722 /* UIView+MN.h */,
+				B4CA2A26223B3E6900217722 /* UIView+MN.m */,
+				B4CA2A43223B45E900217722 /* UITableView+MN.h */,
+				B4CA2A44223B45E900217722 /* UITableView+MN.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B4CA2A13223B3DC200217722 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A14223B3DC200217722 /* AppDelegate.h */,
+				B4CA2A1B223B3DC200217722 /* AppDelegate.m */,
+				B4CA2A15223B3DC200217722 /* Assets.xcassets */,
+				B4CA2A16223B3DC200217722 /* ViewController.m */,
+				B4CA2A17223B3DC200217722 /* LaunchScreen.storyboard */,
+				B4CA2A19223B3DC200217722 /* Main.storyboard */,
+				B4CA2A1C223B3DC200217722 /* ViewController.h */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		B4CA2A2E223B41B800217722 /* MNHome */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A2F223B41B800217722 /* Models */,
+				B4CA2A30223B41B800217722 /* ViewControllers */,
+				B4CA2A31223B41B800217722 /* Views */,
+			);
+			path = MNHome;
+			sourceTree = "<group>";
+		};
+		B4CA2A2F223B41B800217722 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4CA2A30223B41B800217722 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A3A223B41CD00217722 /* MNHomeViewController.h */,
+				B4CA2A3B223B41CD00217722 /* MNHomeViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B4CA2A31223B41B800217722 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4CA2A32223B41B800217722 /* MNClassify */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A33223B41B800217722 /* Models */,
+				B4CA2A34223B41B800217722 /* ViewControllers */,
+				B4CA2A35223B41B800217722 /* Views */,
+			);
+			path = MNClassify;
+			sourceTree = "<group>";
+		};
+		B4CA2A33223B41B800217722 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4CA2A34223B41B800217722 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A3D223B420000217722 /* MNClassifyViewController.h */,
+				B4CA2A3E223B420000217722 /* MNClassifyViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B4CA2A35223B41B800217722 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4CA2A36223B41B800217722 /* MNMore */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A37223B41B800217722 /* Models */,
+				B4CA2A38223B41B800217722 /* ViewControllers */,
+				B4CA2A39223B41B800217722 /* Views */,
+			);
+			path = MNMore;
+			sourceTree = "<group>";
+		};
+		B4CA2A37223B41B800217722 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4CA2A38223B41B800217722 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4CA2A40223B422300217722 /* MNMoreViewController.h */,
+				B4CA2A41223B422300217722 /* MNMoreViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B4CA2A39223B41B800217722 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,9 +475,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4CA29D4223AA6BF00217722 /* LaunchScreen.storyboard in Resources */,
-				B4CA29D1223AA6BF00217722 /* Assets.xcassets in Resources */,
-				B4CA29CF223AA6BC00217722 /* Main.storyboard in Resources */,
+				B4CA2A20223B3DC200217722 /* Main.storyboard in Resources */,
+				B4CA2A1D223B3DC200217722 /* Assets.xcassets in Resources */,
+				B4CA2A1F223B3DC200217722 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,9 +581,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4CA29CC223AA6BC00217722 /* ViewController.m in Sources */,
+				B4CA2A27223B3E6900217722 /* UIView+MN.m in Sources */,
+				B4CA2A45223B45E900217722 /* UITableView+MN.m in Sources */,
+				B4CA2A3F223B420000217722 /* MNClassifyViewController.m in Sources */,
+				B4CA2A42223B422300217722 /* MNMoreViewController.m in Sources */,
+				B4CA2A2A223B3EA000217722 /* HUD.m in Sources */,
+				B4CA2A3C223B41CD00217722 /* MNHomeViewController.m in Sources */,
+				B4CA2A24223B3E5100217722 /* MNTabBarController.m in Sources */,
+				B4CA2A11223B3A6C00217722 /* MNViewController.m in Sources */,
+				B4CA2A0D223B3A0E00217722 /* MenuTool.m in Sources */,
+				B4CA2A1E223B3DC200217722 /* ViewController.m in Sources */,
 				B4CA29D7223AA6BF00217722 /* main.m in Sources */,
-				B4CA29C9223AA6BC00217722 /* AppDelegate.m in Sources */,
+				B4CA2A21223B3DC200217722 /* AppDelegate.m in Sources */,
+				B4CA2A2D223B3FFE00217722 /* MNNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,20 +629,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B4CA29CD223AA6BC00217722 /* Main.storyboard */ = {
+		B4CA2A17223B3DC200217722 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B4CA29CE223AA6BC00217722 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B4CA29D2223AA6BF00217722 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4CA29D3223AA6BF00217722 /* Base */,
+				B4CA2A18223B3DC200217722 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B4CA2A19223B3DC200217722 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4CA2A1A223B3DC200217722 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -561,6 +767,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TGQU3S8SS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/menu/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = menu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -579,6 +787,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5TGQU3S8SS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/menu/Base/PrefixHeader.pch";
 				INFOPLIST_FILE = menu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
